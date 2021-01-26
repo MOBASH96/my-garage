@@ -21,12 +21,13 @@ main{
 
     width:50%;
     margin-left: 2%;
-    padding: 10px;
+    padding: 5px;
 }
 .tableTest{
     display: inline-block;
     width:50%;
     background-color:#a3a3a3;
+    float: right;
 
 }
 #carName{

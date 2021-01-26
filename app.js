@@ -63,6 +63,10 @@ var newCar=new MyGarage(carItsName,carModel,carYear,carImg);
 nameCop();
 }
 
+
+////////////////////////// Functions ///////////////////////
+
+
 function checkSrc(){
     for(var i=0;i<arrayOfCars.length;i++){
         if(arrayOfCars[i].path===imgTable.getAttribute('src'))
