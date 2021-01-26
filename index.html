@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exam</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -12,7 +13,7 @@
         <h1>My Car Garage</h1>
     </header>
     <main>
-        <div>
+        <div  class="testForm">
             <form id="test-form">
                 <label for="carName"> Car Name</label>
                 <input id="carName" name="carName" type="text" required>
@@ -39,13 +40,15 @@
                     <option value="2021">2021</option>
                 </select>
 
-                <input id="submitBtn" type="submit">
-                
+                <input id="submitBtn" type="submit" width="40px" height="25px"> 
+
             </form>
         </div>
 
-        <div>
-            <table id="test-table"></table>
+        <div class="tableTest">
+            <table id="test-table">
+                <img id="imgTable" src="" alt="">
+            </table>
         </div>
     </main>
     <footer></footer>

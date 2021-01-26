@@ -1,0 +1,47 @@
+body{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    color: white;
+    margin-bottom: 2%;
+    background-color: #4a4a4a;
+    text-align: center;
+    font-size: 40px;
+    padding:2%
+    
+}
+main{
+    width:100%
+}
+.testForm{
+    background-color:#a3a3a3;
+    display: inline-block;
+
+    width:50%;
+    margin-left: 2%;
+    padding: 10px;
+}
+.tableTest{
+    display: inline-block;
+    width:50%;
+    background-color:#a3a3a3;
+
+}
+#carName{
+    display: block;
+}
+#catModel{
+    display: block;
+
+}
+#catYear{
+    display: block;
+
+}
+#submitBtn{
+padding-right: 40px;;
+background-color: black;
+    color:white;
+}
